@@ -1,0 +1,24 @@
+{
+    "name": "alexpts/php-vk-auth-middleware",
+    "authors": [
+        {
+            "name": "alexpts",
+            "email": "alexpts@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "psr/http-server-middleware": "^1.0",
+        "zendframework/zend-diactoros": "^2.1"
+    },
+    "require-dev": {
+        "alexpts/psr15-next": "^0.0.11",
+        "zendframework/zend-httphandlerrunner": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PTS\\VkAuthMiddleware\\": "src"
+        }
+    }
+}
