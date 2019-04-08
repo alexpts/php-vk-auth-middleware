@@ -84,7 +84,7 @@ class VkAuthMiddleware implements MiddlewareInterface
         $backRedirect = $this->redirectUrl ?? $this->getCurrentUrl($request);
 
         $state = array_merge($this->state, $state);
-        $state['back_redirect'] = $this->redirectUrl;
+        $state['back_redirect'] = $backRedirect;
         $state['scope'] = $this->scope;
 
         $url = sprintf(
