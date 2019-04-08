@@ -1,5 +1,7 @@
 {
     "name": "alexpts/php-vk-auth-middleware",
+    "license": "mit",
+    "keywords": ["psr-15", "vk", "auth", "middleware"],
     "authors": [
         {
             "name": "alexpts",
